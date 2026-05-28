@@ -25,7 +25,7 @@ body{
 .form-control{
   background-color: #b5bac6;
   border: 1px solid #1e293b;
-  color: white;
+  
 }
 
 .form-control:focus{

@@ -23,7 +23,7 @@ btnElement.addEventListener('click', (event) =>{
     const ageVal   = ageValidation(Number(ageElement.value));
 
   if(nameVal && emailVal && ageVal){
-    alertElement.classList = "alert alert-success";
+    alertElement.className = "alert alert-success alert-dismissible fade show mt-3 container";
     alertElement.innerHTML = `
       Your account has been successfully created.
       <button
